@@ -1,3 +1,13 @@
+variable "metadata_project" {
+  type        = string
+  description = "Project containing metadata validation dataset"
+}
+
+variable "metadata_dataset" {
+  type        = string
+  description = "Name of the metadata validation BQ dataset"
+}
+
 variable "entity" {
   type        = string
   description = "Label value to validate for entity"
